@@ -5,7 +5,7 @@ module "aws_foundation_proxima_fvb" {
   version = "0.6.3"
 
   identifier          = var.identifier
-  public_subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
+  public_subnet_cidrs = ["11.0.1.0/24", "11.0.2.0/24", "11.0.3.0/24"]
   region              = var.aws_region
-  vpc_ip_range        = "10.0.0.0/16"
+  vpc_ip_range        = "11.0.0.0/16"
 }
